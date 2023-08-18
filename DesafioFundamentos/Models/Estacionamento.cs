@@ -1,5 +1,8 @@
 namespace DesafioFundamentos.Models
 {
+    /// <summary>
+    /// Classe que representa o estacionamento
+    /// </summary>
     public class Estacionamento
     {
         private decimal precoInicial = 0;
@@ -31,7 +34,7 @@ namespace DesafioFundamentos.Models
 
             string placaVeiculo = Console.ReadLine();
 
-            // Verifica se a placa digitada está na lista de veículos
+            
             if (veiculos.Any(x => x.ToUpper() == placaVeiculo.ToUpper()))
             {
                 Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
@@ -49,14 +52,21 @@ namespace DesafioFundamentos.Models
             }
         }
 
+
+        /// <summary>
+        /// Lista os veículos estacionados
+        /// </summary>
         public void ListarVeiculos()
         {
-            // Verifica se há veículos no estacionamento
+        
             if (veiculos.Any())
             {
                 Console.WriteLine("Os veículos estacionados são:");
-                // TODO: Realizar um laço de repetição, exibindo os veículos estacionados
-                // *IMPLEMENTE AQUI*
+                
+                foreach (var veiculo in veiculos)
+                {
+                    Console.WriteLine(veiculo);
+                }
             }
             else
             {
