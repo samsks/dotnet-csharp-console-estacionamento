@@ -1,6 +1,6 @@
-# Estacionamento - Sistema de Gerenciamento de Veículos
+Sistema de Gerenciamento de Veículos
 
-Bem-vindo ao **Estacionamento** - um sistema de gerenciamento de veículos para estacionamento, construído como parte da trilha .NET da DIO. Esta aplicação permite o gerenciamento eficiente de veículos estacionados, incluindo funções para adicionar veículos, calcular valores de estacionamento e listar os veículos presentes.
+Bem-vindo a uns de meus projetos feito em .net C# - um sistema de gerenciamento de veículos para estacionamento. Esta aplicação permite o gerenciamento eficiente de veículos estacionados, incluindo funções para adicionar veículos, calcular valores de estacionamento e listar os veículos presentes.
 
 ## Funcionalidades
 
@@ -37,8 +37,8 @@ A estrutura do programa é baseada no seguinte diagrama de classe:
 
 1. Clone ou faça o download do repositório.
 2. Abra o projeto em um ambiente de desenvolvimento .NET compatível.
-3. Execute o programa.
-4. Utilize o menu interativo digitando o comando "dotnet run" para gerenciar os veículos no estacionamento.
+3. Execute o programa acessando a pasta com o arquivo .csproj e em seguida digitando no console o comando `dotnet run`.
+4. Utilize o menu interativo para gerenciar os veículos no estacionamento.
 
 ## Exemplo de Uso
 
