@@ -53,12 +53,11 @@ namespace DesafioFundamentos.Models
         }
 
 
-        /// <summary>
+                /// <summary>
         /// Lista os veículos estacionados
         /// </summary>
         public void ListarVeiculos()
         {
-        
             if (veiculos.Any())
             {
                 Console.WriteLine("Os veículos estacionados são:");

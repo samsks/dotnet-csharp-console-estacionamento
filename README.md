@@ -6,18 +6,6 @@ Bem-vindo a uns de meus projetos feito em .net C# - um sistema de gerenciamento 
 
 O **Estacionamento** oferece as seguintes funcionalidades:
 
-### Adicionar Veículo
-
-O método `AdicionarVeiculo(placa: string)` permite adicionar um novo veículo à lista de veículos estacionados.
-
-### Remover Veículo
-
-O método `RemoverVeiculo(placa: string, horasEstacionado: int)` verifica se um veículo está estacionado, calcula o valor a ser pago com base no tempo de estacionamento e exibe o valor para o usuário.
-
-### Listar Veículos
-
-O método `ListarVeiculos()` exibe a lista de veículos estacionados no momento. Caso não haja veículos estacionados, exibirá a mensagem "Não há veículos estacionados".
-
 ### Menu Interativo
 
 A aplicação possui um menu interativo com as seguintes opções:
