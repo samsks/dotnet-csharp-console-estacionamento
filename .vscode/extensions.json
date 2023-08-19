@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "dotnettools.csdevkit",
+        "ms-dotnettools.csharp",
+        "dotnettools.vscode-dotnet-runtime",
+        "dotnettools.vscodeintellicode-csharp",
+        "fernandoescolar.vscode-solution-explorer"
+    ]
+}
